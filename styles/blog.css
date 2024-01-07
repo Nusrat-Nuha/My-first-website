@@ -1,0 +1,33 @@
+div{
+    background-image: url('../Banner\ Image.png');
+    width: 1290px;
+    height: 450px;
+    /*flex-shrink: 0;*/
+    border-radius: 16px;
+    b
+background: linear-gradient;
+    
+    
+    
+}
+.banner-text,mini-title{
+color: white;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 150px;
+margin-top: 20px;
+}
+/.banner-text,banner-title{
+ color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+}
