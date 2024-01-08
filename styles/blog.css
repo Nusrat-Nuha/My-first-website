@@ -130,9 +130,28 @@
     max-width: 300px;
 }
 
-#portfolio{
-    margin: 50px 0;
+#Awesome_Portfolio{
+    margin: 50px;
 }
+.portfoliotext{
+    margin: 30px;
+}
+/*#Awesome_Portfolio,.portfoliotext h5{
+    color: #F00;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}*/
+
+
+
+
+#portfolio{
+    margin: 50px;
+}
+
 
 .portfolio_box{
     display: grid;
@@ -142,6 +161,8 @@
 .portfolio_box img:hover{
     filter: brightness(0.5);
     transition: 0.5s;
+    
+
 }
 
 
