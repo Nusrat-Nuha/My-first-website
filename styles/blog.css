@@ -1,4 +1,5 @@
 /* all */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -172,13 +173,60 @@ line-height: normal;
 
 }
 
+section#prortfolio {
+    margin: 108px 0;
+    background: #ff00000d;
+    border-radius: 5px;
+    padding:40px 20px;
+    text-align: center;
+}
 
+section#prortfolio img {
+    width: 120px;
+}
 
+section#prortfolio h2 {
+    font-size: 45px;
+    margin-top: 10px;
+    font-family: Inter;
+}
+section#prortfolio p {
+    font-size: 20px;
+    color: #07021199;
+    line-height: 32px;
+    width: 70%;
+    margin: 20px auto;
+}
 
+.Subscribe {
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: white;
+}
 
-
-
-
+.Subscribe input[type="email"] {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    background: transparent;
+    border: none;
+}
+.Subscribe input[type="email"]:focus{
+    outline: none;
+    border: none;
+}
+.Subscribe button {
+    background: red;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+}
 
 
 
