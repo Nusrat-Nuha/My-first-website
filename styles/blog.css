@@ -129,6 +129,12 @@
 .welcome .welcomeImg {
     max-width: 300px;
 }
+.vector,.box,p{
+    text-align: center;
+    margin: 30px;
+   
+    
+}
 
 #Awesome_Portfolio{
     margin: 50px;
